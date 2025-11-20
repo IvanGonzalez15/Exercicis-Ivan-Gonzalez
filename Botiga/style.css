@@ -264,4 +264,17 @@ nav a:hover, nav a:active {
   background-color: #222;
   color: white;
   font-family: "Quantico", sans-serif;
+  cursor: pointer ;
+  margin-bottom: 55%;
+}
+
+.Formulari input[type="textqueixa" ] {
+  height: 30%;
+  width: 110%;
+  border: 1.5px solid #999;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  font-family: "Quantico", sans-serif;
+  margin-bottom: 5%;
 }
