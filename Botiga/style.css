@@ -66,10 +66,14 @@ nav {
   justify-content: center;
 }
 
-.FooterImg img {
+.FooterImg a img{
   width: 40px;
   margin: 1.5%;
   margin-bottom: 1.5%;
+}
+
+.FooterImg a {
+  margin: 1%;
 }
 
 .ColumnaFooter {
