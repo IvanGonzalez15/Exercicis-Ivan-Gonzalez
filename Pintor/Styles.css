@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to top, #fff1c7, #ffffff);
+}
+
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.parallax {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1200px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nom {
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 80;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 35px;
+}
+
+.descripcio {
+    display: grid;
+    justify-content: center;
+}
+
+.descripcio p {
+    width: 60%;
+}
