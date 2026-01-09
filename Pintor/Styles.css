@@ -12,6 +12,14 @@ html, body {
 }
 
 
+.jost-uniquifier {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
 .parallax {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1200px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg);
     height: 100vh;
@@ -25,18 +33,52 @@ html, body {
     display: grid;
     position: absolute;
     top: 0;
-    left: 80;
-    width: 100%;
+    width: 90%;
     margin-left: 10%;
     margin-top: 1%;
     font-size: 35px;
 }
 
-.descripcio {
+.presentacion {
     display: grid;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 6%;
+    gap: 200px;
 }
 
-.descripcio p {
-    width: 60%;
+.presentacion p {
+    font-size: larger;
+}
+
+.presentacion img {
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.presentacion img:hover {
+    transform: scale(1.2);
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 10px;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto 40px auto;
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
 }
