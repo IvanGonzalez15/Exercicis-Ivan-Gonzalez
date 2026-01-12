@@ -11,7 +11,6 @@ html, body {
     font-style: normal;
 }
 
-
 .jost-uniquifier {
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
@@ -37,6 +36,11 @@ html, body {
     margin-left: 10%;
     margin-top: 1%;
     font-size: 35px;
+}
+
+.nom a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .presentacion {
