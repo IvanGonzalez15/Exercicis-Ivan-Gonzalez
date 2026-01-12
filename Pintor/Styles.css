@@ -60,23 +60,20 @@ html, body {
 .presentacion img:hover {
     transform: scale(1.2);
 }
-
 .imagenes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 10px;
-    gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
     width: 90%;
     margin: 0 auto 40px auto;
 }
 
 .imagenes img {
     width: 100%;
-    height: auto;
+    display: block;
+    margin-bottom: 20px; 
     border-radius: 10px;
     border: 2px solid black;
-    transition: transform 0.3s ease;
-    display: block;
+    transition: transform 0.3s ease; 
 }
 
 .imagenes img:hover {

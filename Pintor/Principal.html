@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles.css">
     <title>Michelangelo Buonarroti</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/de/05/aa/de05aa7807c17d2e3bb027836b5660c6.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
@@ -12,26 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
-
-<script> //esto no lo he hecho yo (el script), pero nada mas quedaba bien y me daba mucho toc
-    function resizeGridItem(item) {
-    const grid = document.querySelector('.imagenes');
-    const rowHeight = parseInt(getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
-    const rowGap = parseInt(getComputedStyle(grid).getPropertyValue('gap'));
-    const rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
-    item.style.gridRowEnd = 'span ' + rowSpan;
-    }
-
-    function resizeAllGridItems() {
-    const allItems = document.querySelectorAll('.imagenes img');
-    allItems.forEach(item => resizeGridItem(item));
-    }
-
-    window.addEventListener('load', resizeAllGridItems);
-    window.addEventListener('resize', resizeAllGridItems);
-</script>
-
 
 <body>
     <div class="parallax"></div>
