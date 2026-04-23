@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parc MediAmbiental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+    <div class="parallax">
+        <h1>Parc Ambiental de Bufalvent</h1>
+    </div>
+
+    <div class="Presentacio">
+        <div class="Text">
+            <h1>Parc Ambiental de Bufalvent</h1>
+            <p>El Parc ambiental de Bufalvent és propietat del Consorci del Bages per a la gestió de residus, que és l’entitat pública que gestiona els residus municipals al Bages i part del Moianès: en fa la recollida i el tractament i treballa per canviar els hàbits de la ciutadania. Al Parc ambiental de Bufalvent és on es fa el tractament de residus i, a més, és un espai paisatgístic privilegiat. Està situat al terme municipal de Manresa i el tractament de residus hi conviu amb un entorn ple d’oliveres, barraques de vinya, boscos i animals que hi pasturen. El respecte pel territori i el medi ambient es fa palès en aquest espai, amb unes vistes espectaculars sobre la comarca i sobre Montserrat.</p>
+        </div>
+        
+        <img src="https://web.manresa.cat/media/docs/docsArticle/5189/4-_parc_ambiental_de_bufalvent.jpg" alt="ParcAmbiental">
+    </div>
+
+    <div class="Contingut">
+        <div class="contenedor-360">
+            <a-scene embedded>
+                <a-sky src="Images/1_oficines.jpg" rotation="0 -90 0"></a-sky>
+            </a-scene>
+        </div>
+
+        <div class="oficines">
+            <h1>Oficines</h1>
+            <p>El <strong>Consorci del Bages</strong> és una institució pública formada per 35 ajuntaments que gestiona <strong>80.000 tones de residus</strong> anuals. Amb seu al Parc Ambiental de Bufalvent, un equip de <strong>80 professionals</strong> coordina la recollida selectiva, les deixalleries i el tractament de materials. A més de la gestió tècnica, destaca pel seu impuls a l'<strong>educació ambiental</strong> mitjançant programes educatius i campanyes de sensibilització ciutadana.</p>
+        </div>
+    </div>
+
+    <div class="Abocador"> <!-- Todo el div que contiene la parte del abocador, he hecho otro diferente para que utilize la pestaña entera y no se parta en 2 columas como he hecho en el div contingut-->
+        <h1>Abocador</h1>
+        <p class="abocador-p">
+        El <strong>Parc Ambiental de Bufalvent</strong> gestiona la fracció resta al seu dipòsit controlat, on els residus no reciclables es compacten i s’enterren per ser restaurats posteriorment amb vegetació. Actualment, rep <strong>50.000 tones anuals</strong> de 190.000 habitants, el que representa un 49% del total de residus generats. L'objectiu per al 2035 és reduir aquesta xifra al <strong>10%</strong>, aconseguint que el 90% restant es pugui reaprofitar segons la normativa europea.
+        </p>
+
+        <div class="contenedor-360-abocador">
+            <a-scene embedded>
+                <a-sky src="Images/2_1abocador.jpg" rotation="0 -90 0"></a-sky>
+            </a-scene>
+        </div>
+    </div>
+
+    <div class="Contingut-2">
+        <div class="Planta-Transferencia">
+            <h1>Planta de transferencia</h1>
+            <p>El <strong>Consorci del Bages</strong> gestiona la recollida selectiva d'envasos, vidre i paper/cartró. Els <strong>envasos</strong> (contenidor groc) es compacten a Bufalvent abans de ser triats a Berga; el <strong>vidre</strong> (contenidor verd) es prepara per convertir-se en nou vidre reciclat; i el <strong>paper i cartró</strong> (contenidor blau) es trasllada a la planta de Sallent per a la seva valorització. Tot aquest procés garanteix que els materials es transformin en <strong>nous productes</strong>, reduint l'impacte ambiental.</p>
+        </div>
+        <div class="contenedor-360">
+            <a-scene embedded>
+                <a-sky src="Images/3_plantatransferencia.jpg" rotation="0 -90 0"></a-sky>
+            </a-scene>
+        </div>
+        
+    </div>
+
+</body>
+</html>

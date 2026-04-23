@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #70ff3850, #ffffff);
+
+}
+
+p {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 2.2vh;
+}
+
+h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 6vh;
+}
+
+.kumbh-sans {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+}
+
+.parallax {
+    background-image: url(Images/parc_ambiental_mapa.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+.parallax h1{
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "YOPQ" 300;
+    font-size: 8vh;
+}
+
+.Presentacio {
+    column-count: 2;
+    column-gap: 5%;
+    padding: 4%;
+}
+
+.Presentacio img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 14px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Presentacio img:hover{
+    transform: scale(1.1);
+}
+
+.Contingut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 4%;
+    align-items: start;
+}
+
+.contenedor-360 {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px; 
+    overflow: hidden; 
+    position: relative;
+    box-shadow: 0 10px 25px black;
+}
+
+.contenedor-360 a-scene {
+    box-shadow: 0 8px 14px black;
+    border-radius: 3%;
+}
+
+a-scene {
+    width: 100%;
+    height: 100%;
+}
+
+.Abocador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.Abocador h1 {
+    margin-bottom: -1%;
+}
+
+.abocador-p {
+    padding: 1%;
+}
+
+.contenedor-360-abocador {
+    width: 100%;
+    height: 550px;
+    border-radius: 20px; 
+    overflow: hidden; 
+    position: relative;
+    box-shadow: 0 10px 25px black;
+}
+
+.Contingut-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 4%;
+    align-items: start;
+    margin: 3%;
+}
+
